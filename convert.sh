@@ -1,2 +1,2 @@
 neofetch > print.txt
-pandoc print.txt -o print.pdf
+enscript print.txt -o - | ps2pdf - print.pdf
